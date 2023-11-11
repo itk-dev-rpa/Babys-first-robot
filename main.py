@@ -1,3 +1,7 @@
+"""The main file of the robot which will install all requirements in
+a virtual environment and then start the actual process.
+"""
+
 import subprocess
 import os
 import sys
