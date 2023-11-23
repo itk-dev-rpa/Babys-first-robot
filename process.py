@@ -4,7 +4,7 @@ from OpenOrchestrator.orchestrator_connection.connection import OrchestratorConn
 
 orchestrator_connection = OrchestratorConnection.create_connection_from_args()
 
-orchestrator_connection.log_info("Hello World!")
+orchestrator_connection.log_info("BRANCH!")
 
 args = orchestrator_connection.process_arguments
 orchestrator_connection.log_info(args)
